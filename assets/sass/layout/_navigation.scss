@@ -1,0 +1,35 @@
+.navigation {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.navigation__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.navigation__nav {
+    position: relative;
+    float: right;
+    
+    
+}
+
+.navigation__nav_ul {
+    list-style: none;
+
+    li {
+        display: inline;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.navigation__nav_ul-input {
+    border-radius: 30px;
+}
